@@ -1,0 +1,49 @@
+commands:
+  discord:
+    aliases:
+      - "dc"
+    permission: ""
+    centered: true
+    messages:
+      - ""
+      - "<gradient:#7289da:#99aab5><b>✦ DISCORD ✦</b></gradient>"
+      - ""
+      - "<click:open_url:'https://discord.gg/example'><#7289da>▸ Click para unirte</#7289da></click>"
+      - ""
+
+  tienda:
+    aliases:
+      - "store"
+      - "shop"
+    permission: ""
+    centered: true
+    messages:
+      - ""
+      - "<gradient:#ffd700:#ffaa00><b>✦ TIENDA ✦</b></gradient>"
+      - ""
+      - "<click:open_url:'https://store.example.com'><#ffd700>▸ Click para visitar</#ffd700></click>"
+      - ""
+
+  ips:
+    aliases:
+      - "ip"
+      - "servers"
+    permission: ""
+    centered: false
+    messages:
+      - ""
+      - "<gradient:#00d4aa:#00ff88><b>IPs del Servidor</b></gradient>"
+      - ""
+      - "<gray>▸ <white>Java: <aqua>play.example.com"
+      - "<gray>▸ <white>Bedrock: <aqua>bedrock.example.com"
+      - ""
+
+  staff:
+    aliases: []
+    permission: "simplecommands.staff"
+    centered: false
+    messages:
+      - ""
+      - "<red><b>Staff Info</b></red>"
+      - "<gray>Panel: <white>panel.example.com"
+      - ""
